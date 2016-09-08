@@ -7,9 +7,9 @@ September 9th, 2016. By [AndrewPratley](https://github.com/AndrewPratley), [Antz
 HTML / CSS / Materialize / JavaScript / Backbone / Ruby / NPM
 
 ##Problems Encountered
--Git merge conflicts troubleshooting
--Design decisions: colour choices, wireframe layout, animation effects etc.
--Heroku uploading
+- Git merge conflicts troubleshooting
+- Design decisions: colour choices, wireframe layout, animation effects etc.
+- Heroku uploading
 
 ##Live Deployment
 [WDIConf2016](http://www.herokuapp.com/wdi8melbconf2016)
