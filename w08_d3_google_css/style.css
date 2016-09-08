@@ -1,0 +1,38 @@
+body {
+  background-color: none;
+  text-align: center;
+}
+
+#all {
+  height: 600px;
+  width: 1000px;
+}
+
+#gb {
+  /*background-color: green;*/
+  /*position: absolute;*/
+  /*top: 295px;*/
+  right: 0;
+  width: 100%;
+  height: 50px;
+  display: inline;
+}
+
+.content {
+  /*background-color: blue;*/
+  /*position: absolute;*/
+  height: 500px;
+}
+
+#fbar {
+  background-color: rgb(218, 221, 230);
+  /*position: absolute;*/
+  height: 50px;
+  display: inline-block;;
+  float: right;
+  margin: 5px;
+}
+
+.button {
+  color: rgb(218, 221, 230);
+}

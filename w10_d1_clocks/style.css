@@ -1,0 +1,96 @@
+/*body {
+  background-color: yellow;
+}
+
+#container {
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  padding-top: 200px;
+  position: relative;
+}
+
+#secHand {
+  border-bottom: rgb(230, 48, 235) solid 2px;
+  width: 198px;
+  height: 0px;
+  position: absolute;
+  top: 499px;
+  transform-origin: top right;
+}
+
+#minHand {
+  border-bottom: rgb(64, 23, 133) solid 3px;
+  width: 198px;
+  height: 0px;
+  position: absolute;
+  top: 499px;
+  transform-origin: top right;
+}
+
+#hourHand {
+  border-bottom: rgb(203, 212, 46) solid 5px;
+  width: 60px;
+  height: 0px;
+  position: absolute;
+  top: 499px;
+  left: 38px;
+  transform-origin: top right;
+}
+
+#clock {
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  padding-top: 400px;
+  position: relative;
+}
+
+img {
+  width: 400px;
+
+}*/
+
+
+
+#container {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  padding-top: 200px;
+  position: relative;
+}
+
+#second-hand {
+  border-bottom: red solid 2px;
+  width: 98px;
+  height: 0px;
+  position: absolute;
+  top: 299px;
+  transform-origin: top right;
+}
+
+#minute-hand {
+  border-bottom: black solid 3px;
+  width: 98px;
+  height: 0px;
+  position: absolute;
+  top: 299px;
+  transform-origin: top right;
+}
+
+#hour-hand {
+  border-bottom: blue solid 5px;
+  width: 60px;
+  height: 0px;
+  position: absolute;
+  top: 299px;
+  left: 38px;
+  transform-origin: top right;
+}
+
+p {
+  width: 320px;
+  margin: 0 auto;
+  margin-top: 50px;
+}

@@ -1,0 +1,64 @@
+body {
+  background-color: rgb(46, 29, 104);
+  text-align: center;
+}
+
+h4 {
+  color: yellow;
+}
+
+button {
+  font-family: sans-serif;
+  font-size: 14px;
+  width: 200px;
+  border-radius: 1px;
+  border: 1px solid red;
+  display: block;
+}
+
+div.left {
+  display: inline-block;
+  width: 80px;
+  height: 20px;
+  margin: 5px;
+  border: 1px solid green;
+}
+
+div.right {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: 5px;
+  border: 1px solid yellow;
+  align: right;
+}
+
+/* style on open/close panel */
+button.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 12px;
+  width: 200px;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+/* background color on hover or select */
+button.accordion.active, button.accordion:hover {
+  background-color: #ddd;
+  color: red;
+}
+
+/* style, default:hidden */
+div.panel {
+  padding: 5px;
+  background-color: grey;
+  display: none;
+}
+
+div.panel.show {
+  display: block;
+}

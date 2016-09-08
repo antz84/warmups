@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="wordbalance.js"></script>
+    <title>Word Balance</title>
+  </head>
+  <body>
+    <h1>Word Balance</h1>
+    <a href="https://gist.github.com/HMAN1911/dad99ec1959347bfd24f65f6d2bb8040">Gist</a>
+
+    <p>Word Balance</p>
+    <p>We're going to balance words on one of the letters in them.</p>
+    <p>We'll use the position and letter itself to calculate the weight around the balance point. A word can be balanced if the weight on either side of the balance point is equal. Not all words can be balanced, but those that can are interesting for this challenge.</p>
+    <p>The formula to calculate the weight of the word is to look at the letter position in the English alphabet (so A=1, B=2, C=3 ... Z=26) as the letter weight, then multiply that by the distance from the balance point, so the first letter away is multiplied by 1, the second away by 2, etc.</p>
+    <p>As an example:</p>
+    <p>STEAD balances at T: 1 * S(19) = 1 * E(5) + 2 * A(1) + 3 * D(4))
+    Input Description - You'll be given a series of English words.</p>
+    <p>Example: STEAD</p>
+    <p>Output Description - Your program or function should emit the words split by their balance point and the weight on either side of the balance point.</p>
+    <p>Example: S T EAD - 19</p>
+    <p>This indicates that the T is the balance point and that the weight on either side is 19.</p>
+  </ul>Try these words...</ul>
+    <li>CONSUBSTANTIATION</li>
+    <li>WRONGHEADED</li>
+    <li>UNINTELLIGIBILITY</li>
+    <li>SUPERGLUE</li>
+    <p>Challenge Output```</p>
+    <p>#### Output should be...</p>
+    <p>CONSUBST A NTIATION - 456 WRO N GHEADED - 120 UNINTELL I GIBILITY - 521 SUPERGLUE</p>
+    <p>DOES NOT BALANCE```</p>
+  </body>
+</html>

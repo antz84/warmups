@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>paintr</title>
+    <style>
+      .color-box {
+        height: 10px;
+        width: 10px;
+        border: 3px solid black;
+        margin: 5px;
+      }
+      .paper {
+        border: 2px solid black;
+        height: 200px;
+        display: flex;
+        flex-wrap: wrap;
+        float: left;
+      }
+      .pixel {
+        height: 20px;
+        width: 20px;
+        border: 1px solid black;
+        float: left;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <input id="color-input" type="text" placeholder="type in a color">
+
+      <button>pick</button>
+
+      <div class="color-box"></div>
+
+      <div class="paper">
+        <div class="pixel">1</div>
+        <div class="pixel">2</div>
+        <div class="pixel">3</div>
+        <div class="pixel">4</div>
+      </div>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.js"></script>
+    <script src="app.js"></script>
+
+  </body>
+</html>
+
+<!-- in the console
+
+search using jQuery
+$('input')
+or
+$('input color-input) [?]
+-->
